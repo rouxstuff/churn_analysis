@@ -41,9 +41,34 @@ Hipoteses:
     -
     -
 
-BIBLIOTECAS:
+Bibliotecas:
     - Pandas
     - Numpy
     - Matplotlib
     - Seaborn
     - Warnings
+
+
+Data Description:
+    - custumerID: Identificador unico dos clientes
+    - gender: Genero dos clientes
+    - SeniorCitizen: Indica se o cliente é idoso (0= Não, 1= Sim)
+    - Partner: Se o cliente possui ou não um parceiro
+    - Dependents: Se o cliente possui dependentes
+    - tenure: Numero de meses que o cliente ficou com a empresa
+    - PhoneService: Indica se o cliente tem um plano de telefone
+    - MultipleLines: Viabilidade para multiplas linhas de telefone
+    - InternetService: Tipo do plano de internet (DSL/Fiber optic/No)
+    - OnlineSecurity: Status online de segurança
+    - OnlineBackup: Status online de backup
+    - DeviceProtection: Plano de proteção de dispositivo
+    - TechSupport: Suporte tecnico
+    - StreamingTV: Acesso ao servisso de streaming de TV
+    - StreamingMovies: Acesso ao servisso de streaming de filmes
+    - Contract: Tipo de contrato
+    - PaperlessBilling: Fatura digital (Sim/Não)
+    - PaymentMethod: Metodo de pagamento
+    - MonthlyCharges: Recargas mensais
+    - TotalCharges: Total de recargas por cliente
+    - Churn: Indica se o cliente vai continuar com o serviço ou não (Sim/Não)
+
