@@ -41,16 +41,22 @@ Para guiar a investigação dessas perguntas, foram levantadas três hipóteses 
 * Pandas
 * Numpy 
 * Matplotlib
-* Seaborn as sns
+* Seaborn
 
 ## Hipótese 1: O tipo de contrato influencia no churn?
-Para testar essa hipótese, comparamos a distribuição de cancelamentos entre os diferentes tipos de contrato. Utilizamos um gráfico de contagem para visualizar a quantidade de clientes que cancelaram ou não em cada tipo de contrato, além de uma tabela de proporções para avaliar a taxa de churn relativa dentro de cada grupo.
+Para testar essa hipótese, comparamos a distribuição de cancelamentos entre os diferentes tipos de contrato. 
+
+Utilizamos um gráfico de contagem para visualizar a quantidade de clientes que cancelaram ou não em cada tipo de contrato, além de uma tabela de proporções para avaliar a taxa de churn relativa dentro de cada grupo.
+
 Foi constatado que clientes com contratos mensais têm a maior taxa de cancelamento, indicando que clientes com contratos flexíveis de curto prazo têm maior probabilidade de sair. E clientes com contratos de um e dois anos mostram uma rotatividade significativamente menor, sugerindo que contratos com maior tempo de compromisso ajudam na retenção.
 
 ## Hipótese 2: O serviço oferecido influencia no churn?
 Após confirmar que o tipo de contrato influencia fortemente o churn, investigamos se o serviço oferecido ao cliente também tem um papel importante, considerando o tipo de internet contratada, a presença de suporte técnico e se o cliente possui dependentes. A ideia é entender se a qualidade e abrangência do serviço prestado afetam a decisão do cliente de permanecer ou cancelar.
+
 Foi constatado que clientes com **Fibra Óptica** apresentam a maior taxa de cancelamento entre os tipos de internet, enquanto clientes sem serviço de internet têm a menor taxa. Esse padrão se conecta ao observado na Hipótese 1: clientes com contrato mensal são majoritariamente usuários de Fibra Óptica, reforçando que os dois fatores atuam em conjunto.
+
 Além disso, clientes **sem suporte técnico** apresentam uma taxa de churn muito maior do que clientes com suporte técnico contratado, sugerindo que problemas não resolvidos podem levar à frustração e ao cancelamento.
+
 Por fim, clientes **sem dependentes** também apresentam maior propensão ao churn em comparação com clientes que possuem dependentes, indicando que o perfil familiar do cliente também está relacionado à sua fidelização.
 
 ## Hipótese 3: O método de pagamento e as cobranças influenciam no churn?
