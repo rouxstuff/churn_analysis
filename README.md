@@ -46,5 +46,5 @@ Para guiar a investigação dessas perguntas, foram levantadas três hipóteses 
 ## Hipótese 1: O tipo de contrato influencia no churn?
 Para testar essa hipótese, comparamos a distribuição de cancelamentos entre os diferentes tipos de contrato. Utilizamos um gráfico de contagem para visualizar a quantidade de clientes que cancelaram ou não em cada tipo de contrato, além de uma tabela de proporções para avaliar a taxa de churn relativa dentro de cada grupo.
 <p  align="center">
-    <img src="./assets/churn_by_contrat_type.png" width="700"/>
+    <img src="./assets/churn_by_contrat_type.png" width="500"/>
 </p>
