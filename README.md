@@ -19,6 +19,7 @@ telecom-churn-analysis/
 ### Pré-requisitos
 * Python
 * Jupyter (Caso feito no VS Code)
+### Instalação das Seguintes Bibliotecas
 * pandas
 * numpy
 * matplotlib
