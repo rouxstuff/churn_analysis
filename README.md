@@ -11,7 +11,7 @@ telecom-churn-analysis/
 ├── docs/                        # documentação do projeto
 │   └── entendimento_negocio.md  # contexto, problema, objetivo, perguntas
 │
-├── churn_analysis.ipynb         # notebook principal
+├── churn_analysis.ipynb         # notebook
 └── requirements.txt             # bibliotecas usadas no projeto
 ```              
 
