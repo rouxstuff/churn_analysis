@@ -1,17 +1,19 @@
-## Estrutura do Projeto
+## 📁 Estrutura do Projeto
+
+```
 telecom-churn-analysis/
-││
-├── assets/                         # imagens utilizadas no 
+├── assets/                      # imagens utilizadas no projeto
 │   └── heatmap_risco.png
 │
-├── content/                        
-│   └── dataset 
+├── content/
+│   └── dataset
 │
-├── docs/                           # documentação do projeto
-│  └──  entendimento_negocio.md     # contexto, problema, objetivo, perguntas
+├── docs/                        # documentação do projeto
+│   └── entendimento_negocio.md  # contexto, problema, objetivo, perguntas
 │
-├── churn_analysis.ipynb            # notebook principal (se preferir manter na raiz)       
-└── requirements.txt                # bibliotecas usadas no projeto                  
+├── churn_analysis.ipynb         # notebook principal
+└── requirements.txt             # bibliotecas usadas no projeto
+```              
 
 ## Configuração do Ambiente Local
 ### Pré-requisitos
