@@ -1,4 +1,4 @@
-# EDA - Telecom Custumer Churn
+# EDA - Telecom Costumer Churn
 
 A empresa atua no setor de telecomunicações, oferecendo serviços de internet (DSL e Fibra Óptica), telefonia e serviços adicionais (suporte técnico, segurança online, streaming, entre outros), com diferentes modalidades de contrato e métodos de pagamento.
 
@@ -31,6 +31,11 @@ A análise busca responder às seguintes perguntas:
 * O método de pagamento utilizado pelo cliente influencia sua propensão a cancelar?
 * Existe relação entre o valor cobrado e a decisão de cancelamento?
 
+## Insights
+* Maior parte dos clientes tem o plano de Month-to-month.
+* Uma parcela significativa de clientes cancelou o serviço logo no inicio do relacionamento com a empresa.
+* Maior parte dos clientes escolheu Fiber Optic.
+
 ## Hipóteses Norteadoras
 Para guiar a investigação dessas perguntas, foram levantadas três hipóteses principais:
 * Hipótese 1: O tipo de contrato influencia no churn?
@@ -42,6 +47,9 @@ Para guiar a investigação dessas perguntas, foram levantadas três hipóteses 
 * Numpy 
 * Matplotlib
 * Seaborn
+
+## Dataset
+- [Telco Costumer Churn - IBM](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
 
 ## Hipótese 1: O tipo de contrato influencia no churn?
 Para testar essa hipótese, comparamos a distribuição de cancelamentos entre os diferentes tipos de contrato. 
@@ -61,7 +69,9 @@ Por fim, clientes **sem dependentes** também apresentam maior propensão ao chu
 
 ## Hipótese 3: O método de pagamento e as cobranças influenciam no churn?
 Investigamos se a forma como o cliente paga e os valores cobrados também têm relação com o cancelamento, testando se métodos de pagamento mais manuais e cobranças mais altas tornam o cliente mais propenso a sair.
+
 Foi constatado que clientes que utilizam **electronic check** apresentam a maior taxa de cancelamento entre os métodos de pagamento, enquanto métodos automáticos (débito ou cartão em recorrência) apresentam taxas de churn bem menores.
+
 Também observamos que clientes que cancelaram pagam, em mediana, valores mensais mais altos (~R$80) do que os que permaneceram (~R$65), sugerindo que cobranças mais elevadas, combinadas com pagamentos manuais, reduzem o comprometimento do cliente e aumentam o risco de churn.
 
 ## Conclusão
